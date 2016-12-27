@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <style rel="stylesheet">
+    .flex-container {
+      display: -webkit-play;
+      display: flex;
+      width: 300px;
+      height: 300px;
+      border: 1px solid;
+      background-color: Silver;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    
+    .flex-item {
+      width: 50px;
+      height: 50px;
+      border: 1px solid #f00;
+      background-color: DeepSkyBlue;
+    }
+    
+    .flex-container2 {
+      display: -webkit-play;
+      display: flex;
+      width: 300px;
+      height: 300px;
+      border: 1px solid;
+      background-color: Silver;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .item2-c {
+      height: 100px;
+      flex-grow: 0.4;
+    }
+    
+    .item2-b {
+      margin: 0 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--   flex-direction -->
+  <div class=" flex-container black ">
+    <div class="flex-item ">1</div>
+    <div class="flex-item ">2</div>
+    <div class="flex-item ">3</div>
+    <div class="flex-item ">4</div>
+    <div class="flex-item ">5</div>
+    <div class="flex-item ">6</div>
+    <div class="flex-item ">7</div>
+
+  </div>
+
+
+
+  <!--   flex-direction -->
+  <div class="flex-container2 black ">
+    <div class="flex-item ">1</div>
+    <div class="flex-item item2-b ">2</div>
+    <div class="flex-item item2-c ">2</div>
+
+  </div>
+</body>
+
+</html>
